@@ -3,7 +3,7 @@ node
   stage ("git checkout")
   {
     println "cloning started"
-    sh "git clone -b main https://github.com/priyasoundh/shared_library.git"
+    sh "echo priya"
     println "repo cloned"
   }
 }
