@@ -3,7 +3,7 @@ node
   stage ("git checkout")
   {
     println "cloning started"
-    sh "ls"
+    bat "ls"
     println "repo cloned"
   }
 }
